@@ -205,11 +205,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/yu/garlic/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
     vendor/yu/garlic/proprietary/lib/libgettotalsizecnfg.so:system/lib/libgettotalsizecnfg.so \
-    vendor/yu/garlic/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/yu/garlic/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/yu/garlic/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/yu/garlic/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
-    vendor/yu/garlic/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
     vendor/yu/garlic/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/yu/garlic/proprietary/lib/libomadrmutils_jni.so:system/lib/libomadrmutils_jni.so \
     vendor/yu/garlic/proprietary/lib/libpdmapper.so:system/lib/libpdmapper.so \
@@ -236,11 +233,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib64/libfphal.so:system/lib64/libfphal.so \
     vendor/yu/garlic/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/yu/garlic/proprietary/lib64/libgettotalsizecnfg.so:system/lib64/libgettotalsizecnfg.so \
-    vendor/yu/garlic/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/yu/garlic/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/yu/garlic/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/yu/garlic/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
-    vendor/yu/garlic/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/yu/garlic/proprietary/lib64/libomadrmutils_jni.so:system/lib64/libomadrmutils_jni.so \
     vendor/yu/garlic/proprietary/lib64/libpdmapper.so:system/lib64/libpdmapper.so \
     vendor/yu/garlic/proprietary/lib64/libqcmediaplayer.so:system/lib64/libqcmediaplayer.so \
@@ -1086,8 +1080,11 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libgnsspps \
     libloc_api_v02 \
     libloc_ds_api \
+    libloc_pla \
+    libloc_stub \
     libtime_genoff \
     QtiTelephonyService \
     TimeService \
