@@ -1,4 +1,4 @@
-# Copyright (C) 2017 YU Community OS Team
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -45,28 +45,6 @@ LOCAL_MODULE := libloc_ds_api
 LOCAL_MODULE_OWNER := yu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libloc_ds_api.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libloc_ds_api.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libloc_pla
-LOCAL_MODULE_OWNER := yu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libloc_pla.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libloc_pla.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libloc_stub
-LOCAL_MODULE_OWNER := yu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libloc_stub.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libloc_stub.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

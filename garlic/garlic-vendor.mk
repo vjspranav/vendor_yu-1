@@ -1,4 +1,4 @@
-# Copyright (C) 2017 YU Community OS Team
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -1083,8 +1083,6 @@ PRODUCT_PACKAGES += \
     libgnsspps \
     libloc_api_v02 \
     libloc_ds_api \
-    libloc_pla \
-    libloc_stub \
     libtime_genoff \
     QtiTelephonyService \
     TimeService \
