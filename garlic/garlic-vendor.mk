@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/yu/garlic/proprietary/bin/cnd:system/bin/cnd \
     vendor/yu/garlic/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/yu/garlic/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/yu/garlic/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/yu/garlic/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/yu/garlic/proprietary/bin/fingerprintd:system/bin/fingerprintd \
@@ -168,7 +167,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/firmware/qtc800s.bin:system/etc/firmware/qtc800s.bin \
     vendor/yu/garlic/proprietary/etc/firmware/qtc800s.cfg:system/etc/firmware/qtc800s.cfg \
     vendor/yu/garlic/proprietary/etc/golden.cfg:system/etc/golden.cfg \
-    vendor/yu/garlic/proprietary/etc/gps.cfg:system/etc/gps.cfg \
     vendor/yu/garlic/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/yu/garlic/proprietary/etc/permissions/btmultisim.xml:system/etc/permissions/btmultisim.xml \
     vendor/yu/garlic/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
@@ -181,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/yu/garlic/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/yu/garlic/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/yu/garlic/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/yu/garlic/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/yu/garlic/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/yu/garlic/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
@@ -192,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
     vendor/yu/garlic/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/yu/garlic/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/yu/garlic/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/yu/garlic/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/yu/garlic/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/yu/garlic/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
@@ -205,8 +205,11 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/yu/garlic/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
     vendor/yu/garlic/proprietary/lib/libgettotalsizecnfg.so:system/lib/libgettotalsizecnfg.so \
+    vendor/yu/garlic/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/yu/garlic/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/yu/garlic/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    vendor/yu/garlic/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
+    vendor/yu/garlic/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
     vendor/yu/garlic/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/yu/garlic/proprietary/lib/libomadrmutils_jni.so:system/lib/libomadrmutils_jni.so \
     vendor/yu/garlic/proprietary/lib/libpdmapper.so:system/lib/libpdmapper.so \
@@ -233,8 +236,11 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib64/libfphal.so:system/lib64/libfphal.so \
     vendor/yu/garlic/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/yu/garlic/proprietary/lib64/libgettotalsizecnfg.so:system/lib64/libgettotalsizecnfg.so \
+    vendor/yu/garlic/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/yu/garlic/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/yu/garlic/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/yu/garlic/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
+    vendor/yu/garlic/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/yu/garlic/proprietary/lib64/libomadrmutils_jni.so:system/lib64/libomadrmutils_jni.so \
     vendor/yu/garlic/proprietary/lib64/libpdmapper.so:system/lib64/libpdmapper.so \
     vendor/yu/garlic/proprietary/lib64/libqcmediaplayer.so:system/lib64/libqcmediaplayer.so \
@@ -295,6 +301,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/yu/garlic/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/yu/garlic/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/yu/garlic/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/yu/garlic/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/yu/garlic/proprietary/vendor/lib/libFIDOKeyProvisioning.so:system/vendor/lib/libFIDOKeyProvisioning.so \
@@ -483,13 +490,16 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
     vendor/yu/garlic/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
     vendor/yu/garlic/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/yu/garlic/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/yu/garlic/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/yu/garlic/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/yu/garlic/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/yu/garlic/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/yu/garlic/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
@@ -827,6 +837,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libFIDOKeyProvisioning.so:system/vendor/lib64/libFIDOKeyProvisioning.so \
@@ -903,12 +914,15 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libextendedremotedisplay.so:system/vendor/lib64/libextendedremotedisplay.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
@@ -920,7 +934,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
     vendor/yu/garlic/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/yu/garlic/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/yu/garlic/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
