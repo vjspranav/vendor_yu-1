@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/yu/garlic/proprietary/bin/cnd:system/bin/cnd \
     vendor/yu/garlic/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/yu/garlic/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/yu/garlic/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/yu/garlic/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/yu/garlic/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
@@ -41,8 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/yu/garlic/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/yu/garlic/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/yu/garlic/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/yu/garlic/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/yu/garlic/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/yu/garlic/proprietary/bin/radish:system/bin/radish \
     vendor/yu/garlic/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -173,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/yu/garlic/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/yu/garlic/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/yu/garlic/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/yu/garlic/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/yu/garlic/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/yu/garlic/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
@@ -191,7 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/libplugin_superphoto.so:system/lib/libplugin_superphoto.so \
     vendor/yu/garlic/proprietary/lib/libplugin_wideself.so:system/lib/libplugin_wideself.so \
     vendor/yu/garlic/proprietary/lib/libqcmediaplayer.so:system/lib/libqcmediaplayer.so \
-    vendor/yu/garlic/proprietary/lib/libregionalization.so:system/lib/libregionalization.so \
     vendor/yu/garlic/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/yu/garlic/proprietary/lib64/hw/fingerprint.elan.default.so:system/lib64/hw/fingerprint.elan.default.so \
     vendor/yu/garlic/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
