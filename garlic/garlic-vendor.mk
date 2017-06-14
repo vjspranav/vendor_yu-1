@@ -1,4 +1,4 @@
-# Copyright (C) 2017 YU Community OS Team
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -91,12 +91,10 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/appops_policy.xml:system/etc/appops_policy.xml \
     vendor/yu/garlic/proprietary/etc/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
     vendor/yu/garlic/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/yu/garlic/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/yu/garlic/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/yu/garlic/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
-    vendor/yu/garlic/proprietary/etc/camera/imx258_guangbao_p7201_chromatix.xml:system/etc/camera/imx258_guangbao_p7201_chromatix.xml \
     vendor/yu/garlic/proprietary/etc/camera/imx258_sunny_p7201_chromatix.xml:system/etc/camera/imx258_sunny_p7201_chromatix.xml \
-    vendor/yu/garlic/proprietary/etc/camera/msm8937_camera_p7201.xml:system/etc/camera/msm8937_camera_p7201.xml \
-    vendor/yu/garlic/proprietary/etc/camera/ov8856_chromatix.xml:system/etc/camera/ov8856_chromatix.xml \
     vendor/yu/garlic/proprietary/etc/camera/p7201_s5k4h8_chromatix.xml:system/etc/camera/p7201_s5k4h8_chromatix.xml \
     vendor/yu/garlic/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/yu/garlic/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
@@ -174,18 +172,9 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/yu/garlic/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/yu/garlic/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/yu/garlic/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
-    vendor/yu/garlic/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
-    vendor/yu/garlic/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/yu/garlic/proprietary/lib/libarcsoft_wideselfie.so:system/lib/libarcsoft_wideselfie.so \
     vendor/yu/garlic/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/yu/garlic/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
     vendor/yu/garlic/proprietary/lib/libpdmapper.so:system/lib/libpdmapper.so \
-    vendor/yu/garlic/proprietary/lib/libplugin_beautyshot.so:system/lib/libplugin_beautyshot.so \
-    vendor/yu/garlic/proprietary/lib/libplugin_nightshot.so:system/lib/libplugin_nightshot.so \
-    vendor/yu/garlic/proprietary/lib/libplugin_panorama.so:system/lib/libplugin_panorama.so \
-    vendor/yu/garlic/proprietary/lib/libplugin_superphoto.so:system/lib/libplugin_superphoto.so \
-    vendor/yu/garlic/proprietary/lib/libplugin_wideself.so:system/lib/libplugin_wideself.so \
     vendor/yu/garlic/proprietary/lib/libqcmediaplayer.so:system/lib/libqcmediaplayer.so \
     vendor/yu/garlic/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/yu/garlic/proprietary/lib64/hw/fingerprint.elan.default.so:system/lib64/hw/fingerprint.elan.default.so \
@@ -267,7 +256,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/yu/garlic/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/yu/garlic/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libactuator_dw9800_imx258_p7201guangbao.so:system/vendor/lib/libactuator_dw9800_imx258_p7201guangbao.so \
     vendor/yu/garlic/proprietary/vendor/lib/libactuator_dw9800_imx258_p7201sunny.so:system/vendor/lib/libactuator_dw9800_imx258_p7201sunny.so \
     vendor/yu/garlic/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/yu/garlic/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
@@ -292,32 +280,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_csidtg_preview.so:system/vendor/lib/libchromatix_csidtg_preview.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:system/vendor/lib/libchromatix_csidtg_zsl_preview.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_4k_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_4k_preview_bu64244gwz.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_4k_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_4k_video_bu64244gwz.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_common.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_common.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_hfr_120.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_hfr_60.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_hfr_90.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_liveshot.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_liveshot.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_preview.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_preview.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_snapshot.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_snapshot.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_video.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_video.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_video_4k.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_cpp_video_4k.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_default_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_default_preview_bu64244gwz.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_default_video.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_default_video.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_default_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_default_video_bu64244gwz.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_120.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_120.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_120_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_120_bu64244gwz.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_60.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_60.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_60_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_60_bu64244gwz.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_90.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_90.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_90_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_hfr_90_bu64244gwz.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_postproc.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_postproc.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_preview.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_preview.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_snapshot.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_snapshot.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_video_4k.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_video_4k.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_zsl_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_zsl_preview_bu64244gwz.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_guangbao_p7201_zsl_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_guangbao_p7201_zsl_video_bu64244gwz.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_4k_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_4k_preview_bu64244gwz.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_4k_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_4k_video_bu64244gwz.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_common.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_common.so \
@@ -453,14 +415,12 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_imx258_guangbao_p7201.so:system/vendor/lib/libmmcamera_imx258_guangbao_p7201.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_imx258_sunny_p7201.so:system/vendor/lib/libmmcamera_imx258_sunny_p7201.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
@@ -499,7 +459,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_p7201_guangbao_imx258_gt24c16_eeprom.so:system/vendor/lib/libmmcamera_p7201_guangbao_imx258_gt24c16_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_p7201_sunny_imx258_otp_eeprom.so:system/vendor/lib/libmmcamera_p7201_sunny_imx258_otp_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so:system/vendor/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
@@ -508,7 +467,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_s5k4h8_p7201.so:system/vendor/lib/libmmcamera_s5k4h8_p7201.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_s5k4h8_p7201_eeprom.so:system/vendor/lib/libmmcamera_s5k4h8_p7201_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_sw_tnr.so:system/vendor/lib/libmmcamera_sw_tnr.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
@@ -527,7 +485,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
@@ -539,7 +496,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
     vendor/yu/garlic/proprietary/vendor/lib/libnative_audio_latency_jni.so:system/vendor/lib/libnative_audio_latency_jni.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/yu/garlic/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/yu/garlic/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
@@ -611,7 +567,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libswvdec.so:system/vendor/lib/libswvdec.so \
     vendor/yu/garlic/proprietary/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
     vendor/yu/garlic/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
     vendor/yu/garlic/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/yu/garlic/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/yu/garlic/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \

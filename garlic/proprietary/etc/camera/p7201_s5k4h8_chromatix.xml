@@ -93,6 +93,17 @@ special_mode_mask values:
     </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="SCENE_SPORTS">
+      <ISPPreview>s5k4h8_p7201_snapshot</ISPPreview>
+      <ISPSnapshot>s5k4h8_p7201_snapshot</ISPSnapshot>
+      <ISPVideo>s5k4h8_p7201_default_video</ISPVideo>
+      <CPPPreview>s5k4h8_p7201_cpp_hfr_120</CPPPreview>
+      <CPPSnapshot>s5k4h8_p7201_cpp_hfr_120</CPPSnapshot>
+      <CPPVideo>s5k4h8_p7201_cpp_hfr_120</CPPVideo>
+      <CPPLiveshot>s5k4h8_p7201_cpp_hfr_120</CPPLiveshot>
+      <A3Preview>s5k4h8_p7201_a3_hfr_120</A3Preview>
+      <A3Video>s5k4h8_p7201_a3_hfr_120</A3Video>
+    </ChromatixName>
     <ChromatixName sensor_resolution_index="0">
       <ISPPreview>s5k4h8_p7201_snapshot</ISPPreview>
       <ISPSnapshot>s5k4h8_p7201_snapshot</ISPSnapshot>
@@ -143,6 +154,29 @@ special_mode_mask values:
       <CPPVideo>s5k4h8_p7201_cpp_hfr_120</CPPVideo>
       <A3Preview>s5k4h8_p7201_a3_hfr_120</A3Preview>
       <A3Video>s5k4h8_p7201_a3_hfr_120</A3Video>
+    </ChromatixName>
+
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="THIRD_PARTY_APP">
+      <ISPPreview>s5k4h8_p7201_snapshot_third_party_app</ISPPreview>
+      <ISPSnapshot>s5k4h8_p7201_snapshot_third_party_app</ISPSnapshot>
+      <ISPVideo>s5k4h8_p7201_default_video_third_party_app</ISPVideo>
+      <CPPPreview>s5k4h8_p7201_cpp_preview_third_party_app</CPPPreview>
+      <CPPSnapshot>s5k4h8_p7201_cpp_snapshot_third_party_app</CPPSnapshot>
+      <CPPVideo>s5k4h8_p7201_cpp_video_third_party_app</CPPVideo>
+      <CPPLiveshot>s5k4h8_p7201_cpp_liveshot_third_party_app</CPPLiveshot>
+      <A3Preview>s5k4h8_p7201_zsl_preview_third_party_app</A3Preview>
+      <A3Video>s5k4h8_p7201_zsl_video_third_party_app</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="THIRD_PARTY_APP">
+      <ISPPreview>s5k4h8_p7201_preview_third_party_app</ISPPreview>
+      <ISPSnapshot>s5k4h8_p7201_preview_third_party_app</ISPSnapshot>
+      <ISPVideo>s5k4h8_p7201_default_video_third_party_app</ISPVideo>
+      <CPPPreview>s5k4h8_p7201_cpp_preview_third_party_app</CPPPreview>
+      <CPPSnapshot>s5k4h8_p7201_cpp_snapshot_third_party_app</CPPSnapshot>
+      <CPPVideo>s5k4h8_p7201_cpp_video_third_party_app</CPPVideo>
+      <CPPLiveshot>s5k4h8_p7201_cpp_liveshot_third_party_app</CPPLiveshot>
+      <A3Preview>s5k4h8_p7201_a3_default_preview_third_party_app</A3Preview>
+      <A3Video>s5k4h8_p7201_a3_default_video_third_party_app</A3Video>
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
