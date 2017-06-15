@@ -157,41 +157,6 @@ special_mode_mask values:
       <A3Preview>imx258_sunny_p7201_hfr_120_bu64244gwz</A3Preview>
       <A3Video>imx258_sunny_p7201_hfr_120_bu64244gwz</A3Video>
     </ChromatixName>
-	
-    <ChromatixName sensor_resolution_index="0" special_mode_mask="THIRD_PARTY_APP">
-      <ISPPreview>imx258_sunny_p7201_snapshot_third_party_app</ISPPreview>
-      <ISPSnapshot>imx258_sunny_p7201_snapshot_third_party_app</ISPSnapshot>
-      <ISPVideo>imx258_sunny_p7201_default_video_third_party_app</ISPVideo>
-      <CPPPreview>imx258_sunny_p7201_cpp_preview_third_party_app</CPPPreview>
-      <CPPSnapshot>imx258_sunny_p7201_cpp_snapshot_third_party_app</CPPSnapshot>
-      <CPPVideo>imx258_sunny_p7201_cpp_video_third_party_app</CPPVideo>
-      <CPPLiveshot>imx258_sunny_p7201_cpp_liveshot_third_party_app</CPPLiveshot>
-      <A3Preview>imx258_sunny_p7201_zsl_preview_bu64244gwz_third_party_app</A3Preview>
-      <A3Video>imx258_sunny_p7201_zsl_video_bu64244gwz_third_party_app</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="THIRD_PARTY_APP">
-      <ISPPreview>imx258_sunny_p7201_preview_third_party_app</ISPPreview>
-      <ISPSnapshot>imx258_sunny_p7201_preview_third_party_app</ISPSnapshot>
-      <ISPVideo>imx258_sunny_p7201_preview_third_party_app</ISPVideo>
-      <CPPPreview>imx258_sunny_p7201_cpp_preview_third_party_app</CPPPreview>
-      <CPPSnapshot>imx258_sunny_p7201_cpp_snapshot_third_party_app</CPPSnapshot>
-      <CPPVideo>imx258_sunny_p7201_cpp_video_third_party_app</CPPVideo>
-      <CPPLiveshot>imx258_sunny_p7201_cpp_liveshot_third_party_app</CPPLiveshot>
-      <A3Preview>imx258_sunny_p7201_4k_preview_bu64244gwz_third_party_app</A3Preview>
-      <A3Video>imx258_sunny_p7201_4k_video_bu64244gwz_third_party_app</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="2" special_mode_mask="THIRD_PARTY_APP">
-      <ISPPreview>imx258_sunny_p7201_preview_third_party_app</ISPPreview>
-      <ISPSnapshot>imx258_sunny_p7201_preview_third_party_app</ISPSnapshot>
-      <ISPVideo>imx258_sunny_p7201_preview_third_party_app</ISPVideo>
-      <CPPPreview>imx258_sunny_p7201_cpp_preview_third_party_app</CPPPreview>
-      <CPPSnapshot>imx258_sunny_p7201_cpp_snapshot_third_party_app</CPPSnapshot>
-      <CPPVideo>imx258_sunny_p7201_cpp_video_third_party_app</CPPVideo>
-      <CPPLiveshot>imx258_sunny_p7201_cpp_liveshot_third_party_app</CPPLiveshot>
-      <A3Preview>imx258_sunny_p7201_default_preview_bu64244gwz_third_party_app</A3Preview>
-      <A3Video>imx258_sunny_p7201_default_video_bu64244gwz_third_party_app</A3Video>
-    </ChromatixName>
-	
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
 
