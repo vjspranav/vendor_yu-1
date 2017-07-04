@@ -108,56 +108,6 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-   <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>ov8856</SensorName>
-       <EepromName>p7201_sunwin_ov8856_otp</EepromName>
-    <FlashName>pmic</FlashName>       
-    <ChromatixName>ov8856_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.73</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.98</TotalFocusDistance>
-      <HorizontalViewAngle>68.0</HorizontalViewAngle>
-      <VerticalViewAngle>51.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>                
-    <CameraId>0</CameraId>
-    <SensorName>imx258_guangbao_p7201</SensorName>
-    <FlashName>pmic</FlashName>
-    <ActuatorName>dw9800_imx258_p7201guangbao</ActuatorName>
-    <EepromName>p7201_guangbao_imx258_gt24c16</EepromName>
-    <ChromatixName>imx258_guangbao_p7201_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.73</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>64.1</HorizontalViewAngle>
-      <VerticalViewAngle>51.6</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>imx258_sunny_p7201</SensorName>
