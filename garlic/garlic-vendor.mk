@@ -21,10 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/bin/cnd:system/bin/cnd \
     vendor/yu/garlic/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/yu/garlic/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/yu/garlic/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/yu/garlic/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/yu/garlic/proprietary/bin/fstman:system/bin/fstman \
     vendor/yu/garlic/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
+    vendor/yu/garlic/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/yu/garlic/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/yu/garlic/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/yu/garlic/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -120,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/yu/garlic/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/yu/garlic/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
+    vendor/yu/garlic/proprietary/etc/fingerprint_config.xml:system/etc/fingerprint_config.xml \
     vendor/yu/garlic/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
     vendor/yu/garlic/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/yu/garlic/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -179,12 +180,17 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/libqcmediaplayer.so:system/lib/libqcmediaplayer.so \
     vendor/yu/garlic/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/yu/garlic/proprietary/lib64/hw/fingerprint.elan.default.so:system/lib64/hw/fingerprint.elan.default.so \
+    vendor/yu/garlic/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.default.so \
     vendor/yu/garlic/proprietary/lib64/hw/sensors.msm8937.so:system/lib64/hw/sensors.msm8937.so \
     vendor/yu/garlic/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/yu/garlic/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
     vendor/yu/garlic/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/yu/garlic/proprietary/lib64/libdashplayer.so:system/lib64/libdashplayer.so \
     vendor/yu/garlic/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
+    vendor/yu/garlic/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
+    vendor/yu/garlic/proprietary/lib64/libfpalgorithm.so:system/lib64/libfpalgorithm.so \
+    vendor/yu/garlic/proprietary/lib64/libfphal.so:system/lib64/libfphal.so \
+    vendor/yu/garlic/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/yu/garlic/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/yu/garlic/proprietary/lib64/libpdmapper.so:system/lib64/libpdmapper.so \
     vendor/yu/garlic/proprietary/lib64/libqcmediaplayer.so:system/lib64/libqcmediaplayer.so \
