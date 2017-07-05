@@ -89,7 +89,6 @@ LensInfo : Information of the lens present in the module.
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>imx258</SensorName>
-    <FlashName>pmic</FlashName>
     <ActuatorName>dw9800_imx258_p7201sunny</ActuatorName>
     <EepromName>p7201_sunny_imx258_otp</EepromName>
     <ChromatixName>imx258_sunny_p7201_chromatix</ChromatixName>
@@ -115,7 +114,6 @@ LensInfo : Information of the lens present in the module.
     <CameraId>2</CameraId>
     <SensorName>s5k4h8</SensorName>
     <EepromName>s5k4h8_p7201</EepromName>
-    <FlashName>pmic</FlashName>
     <ChromatixName>p7201_s5k4h8_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
