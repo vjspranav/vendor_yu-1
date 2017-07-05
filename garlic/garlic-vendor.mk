@@ -309,31 +309,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_video_4k.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_video_4k.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_preview_bu64244gwz.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_video_bu64244gwz.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_default_preview.so:system/vendor/lib/libchromatix_ov8856_a3_default_preview.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_default_video.so:system/vendor/lib/libchromatix_ov8856_a3_default_video.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_120.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_120.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_60.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_60.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_90.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_90.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_common.so:system/vendor/lib/libchromatix_ov8856_common.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8856_cpp_liveshot.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_preview.so:system/vendor/lib/libchromatix_ov8856_cpp_preview.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8856_cpp_snapshot.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_video.so:system/vendor/lib/libchromatix_ov8856_cpp_video.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_default_video.so:system/vendor/lib/libchromatix_ov8856_default_video.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_hfr_120.so:system/vendor/lib/libchromatix_ov8856_hfr_120.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_hfr_60.so:system/vendor/lib/libchromatix_ov8856_hfr_60.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_hfr_90.so:system/vendor/lib/libchromatix_ov8856_hfr_90.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_liveshot.so:system/vendor/lib/libchromatix_ov8856_liveshot.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_postproc.so:system/vendor/lib/libchromatix_ov8856_postproc.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_preview.so:system/vendor/lib/libchromatix_ov8856_preview.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_snapshot.so:system/vendor/lib/libchromatix_ov8856_snapshot.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_zsl_preview.so:system/vendor/lib/libchromatix_ov8856_zsl_preview.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_zsl_video.so:system/vendor/lib/libchromatix_ov8856_zsl_video.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_preview.so:system/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_preview.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_video.so:system/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_video.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_p7201_a3_hfr_120.so \
@@ -470,9 +445,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_p7201_sunny_imx258_otp_eeprom.so:system/vendor/lib/libmmcamera_p7201_sunny_imx258_otp_eeprom.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so:system/vendor/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
