@@ -91,11 +91,10 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/appops_policy.xml:system/etc/appops_policy.xml \
     vendor/yu/garlic/proprietary/etc/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
     vendor/yu/garlic/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/yu/garlic/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/yu/garlic/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/yu/garlic/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
-    vendor/yu/garlic/proprietary/etc/camera/imx258_guangbao_p7201_chromatix.xml:system/etc/camera/imx258_guangbao_p7201_chromatix.xml \
     vendor/yu/garlic/proprietary/etc/camera/imx258_sunny_p7201_chromatix.xml:system/etc/camera/imx258_sunny_p7201_chromatix.xml \
-    vendor/yu/garlic/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/yu/garlic/proprietary/etc/camera/p7201_s5k4h8_chromatix.xml:system/etc/camera/p7201_s5k4h8_chromatix.xml \
     vendor/yu/garlic/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/yu/garlic/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
@@ -120,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/yu/garlic/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/yu/garlic/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
-    vendor/yu/garlic/proprietary/etc/fingerprint_config.xml:system/etc/fingerprint_config.xml \
     vendor/yu/garlic/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
     vendor/yu/garlic/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/yu/garlic/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -588,8 +586,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
     vendor/yu/garlic/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/yu/garlic/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/yu/garlic/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/yu/garlic/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/yu/garlic/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
@@ -974,6 +970,8 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
+    libts_detected_face_hal \
+    libts_face_beautify_hal \
     TimeService \
     datastatusnotification \
     fastdormancy \
