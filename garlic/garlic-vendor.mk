@@ -165,6 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/yu/garlic/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/yu/garlic/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/yu/garlic/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/yu/garlic/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/yu/garlic/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/yu/garlic/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
@@ -196,6 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/yu/garlic/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/yu/garlic/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/yu/garlic/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/yu/garlic/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/yu/garlic/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/yu/garlic/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
@@ -945,6 +947,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libts_detected_face_hal \
     libts_face_beautify_hal \
+    QtiTelephonyService \
     TimeService \
     datastatusnotification \
     fastdormancy \
@@ -958,6 +961,7 @@ PRODUCT_PACKAGES += \
     colorservice \
     imssettings \
     ConnectivityExt \
+    QtiTelephonyServicelibrary \
     cneapiclient \
     com.qti.dpmframework \
     com.qti.location.sdk \
@@ -969,4 +973,5 @@ PRODUCT_PACKAGES += \
     imscmlibrary \
     izat.xt.srv \
     qcrilhook \
+    qti-telephony-common \
     tcmclient
