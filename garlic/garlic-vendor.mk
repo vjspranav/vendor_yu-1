@@ -261,6 +261,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/yu/garlic/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/yu/garlic/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
     vendor/yu/garlic/proprietary/vendor/lib/libactuator_dw9800_imx258_p7201sunny.so:system/vendor/lib/libactuator_dw9800_imx258_p7201sunny.so \
     vendor/yu/garlic/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/yu/garlic/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
@@ -286,19 +287,29 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_csidtg_preview.so:system/vendor/lib/libchromatix_csidtg_preview.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:system/vendor/lib/libchromatix_csidtg_zsl_preview.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_4k_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_4k_preview_bu64244gwz.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_4k_preview_bu64244gwz_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_4k_preview_bu64244gwz_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_4k_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_4k_video_bu64244gwz.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_4k_video_bu64244gwz_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_4k_video_bu64244gwz_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_common.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_common.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_hfr_120.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_hfr_60.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_hfr_90.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_liveshot.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_liveshot.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_liveshot_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_liveshot_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_preview.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_preview.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_preview_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_preview_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_snapshot.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_snapshot.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_snapshot_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_snapshot_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_video.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_video.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_video_4k.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_video_4k.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_video_4k_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_video_4k_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_video_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_cpp_video_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_default_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_default_preview_bu64244gwz.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_default_preview_bu64244gwz_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_default_preview_bu64244gwz_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_default_video.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_default_video.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_default_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_default_video_bu64244gwz.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_default_video_bu64244gwz_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_default_video_bu64244gwz_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_default_video_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_default_video_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_hfr_120.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_hfr_120.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_hfr_120_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_hfr_120_bu64244gwz.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_hfr_60.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_hfr_60.so \
@@ -307,12 +318,19 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_hfr_90_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_hfr_90_bu64244gwz.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_postproc.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_postproc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_preview.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_preview.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_preview_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_preview_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_snapshot.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_snapshot.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_snapshot_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_snapshot_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_video_4k.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_video_4k.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_video_4k_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_video_4k_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_preview_bu64244gwz.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_preview_bu64244gwz_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_preview_bu64244gwz_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_video_bu64244gwz.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_video_bu64244gwz_third_party_app.so:system/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_video_bu64244gwz_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_preview.so:system/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_preview.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_preview_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_preview_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_video.so:system/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_video.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_video_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_video_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_p7201_a3_hfr_120.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k4h8_p7201_a3_hfr_60.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k4h8_p7201_a3_hfr_90.so \
@@ -321,19 +339,29 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k4h8_p7201_cpp_hfr_60.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k4h8_p7201_cpp_hfr_90.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_p7201_cpp_liveshot.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_cpp_liveshot_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_cpp_liveshot_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_cpp_preview.so:system/vendor/lib/libchromatix_s5k4h8_p7201_cpp_preview.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_cpp_preview_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_cpp_preview_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_p7201_cpp_snapshot.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_cpp_snapshot_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_cpp_snapshot_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_cpp_video.so:system/vendor/lib/libchromatix_s5k4h8_p7201_cpp_video.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_cpp_video_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_cpp_video_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_default_video.so:system/vendor/lib/libchromatix_s5k4h8_p7201_default_video.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_default_video_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_default_video_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_p7201_hfr_120.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_hfr_60.so:system/vendor/lib/libchromatix_s5k4h8_p7201_hfr_60.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_hfr_90.so:system/vendor/lib/libchromatix_s5k4h8_p7201_hfr_90.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_p7201_liveshot.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_liveshot_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_liveshot_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_postproc.so:system/vendor/lib/libchromatix_s5k4h8_p7201_postproc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_preview.so:system/vendor/lib/libchromatix_s5k4h8_p7201_preview.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_preview_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_preview_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_p7201_snapshot.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_snapshot_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_snapshot_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_zsl_preview.so:system/vendor/lib/libchromatix_s5k4h8_p7201_zsl_preview.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_zsl_preview_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_zsl_preview_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_zsl_video.so:system/vendor/lib/libchromatix_s5k4h8_p7201_zsl_video.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_zsl_video_third_party_app.so:system/vendor/lib/libchromatix_s5k4h8_p7201_zsl_video_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/yu/garlic/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/yu/garlic/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
