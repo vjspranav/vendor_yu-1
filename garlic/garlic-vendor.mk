@@ -91,12 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/appops_policy.xml:system/etc/appops_policy.xml \
     vendor/yu/garlic/proprietary/etc/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
     vendor/yu/garlic/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
-    vendor/yu/garlic/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
-    vendor/yu/garlic/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
-    vendor/yu/garlic/proprietary/etc/camera/imx258_guangbao_p7201_chromatix.xml:system/etc/camera/imx258_guangbao_p7201_chromatix.xml \
-    vendor/yu/garlic/proprietary/etc/camera/imx258_sunny_p7201_chromatix.xml:system/etc/camera/imx258_sunny_p7201_chromatix.xml \
-    vendor/yu/garlic/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
-    vendor/yu/garlic/proprietary/etc/camera/p7201_s5k4h8_chromatix.xml:system/etc/camera/p7201_s5k4h8_chromatix.xml \
     vendor/yu/garlic/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/yu/garlic/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/yu/garlic/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
