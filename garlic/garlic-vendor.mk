@@ -179,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/yu/garlic/proprietary/lib64/hw/fingerprint.elan.default.so:system/lib64/hw/fingerprint.elan.default.so \
     vendor/yu/garlic/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.default.so \
+    vendor/yu/garlic/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/yu/garlic/proprietary/lib64/hw/lights.msm8937.so:system/lib64/hw/lights.msm8937.so \
     vendor/yu/garlic/proprietary/lib64/hw/sensors.msm8937.so:system/lib64/hw/sensors.msm8937.so \
     vendor/yu/garlic/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
@@ -187,6 +188,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib64/libdashplayer.so:system/lib64/libdashplayer.so \
     vendor/yu/garlic/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
     vendor/yu/garlic/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
+    vendor/yu/garlic/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/yu/garlic/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/yu/garlic/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/yu/garlic/proprietary/lib64/libpdmapper.so:system/lib64/libpdmapper.so \
