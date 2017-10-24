@@ -177,8 +177,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/libpdmapper.so:system/lib/libpdmapper.so \
     vendor/yu/garlic/proprietary/lib/libqcmediaplayer.so:system/lib/libqcmediaplayer.so \
     vendor/yu/garlic/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/yu/garlic/proprietary/lib64/hw/fingerprint.elan.default.so:system/lib64/hw/fingerprint.elan.default.so \
-    vendor/yu/garlic/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.default.so \
+    vendor/yu/garlic/proprietary/lib64/hw/fingerprint.elan.so:system/lib64/hw/fingerprint.elan.so \
+    vendor/yu/garlic/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/yu/garlic/proprietary/lib64/hw/lights.msm8937.so:system/lib64/hw/lights.msm8937.so \
     vendor/yu/garlic/proprietary/lib64/hw/sensors.msm8937.so:system/lib64/hw/sensors.msm8937.so \
     vendor/yu/garlic/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
