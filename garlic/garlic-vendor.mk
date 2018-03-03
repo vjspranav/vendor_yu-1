@@ -263,7 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/yu/garlic/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/yu/garlic/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libactuator_dw9800_imx258_p7201guangbao.so:system/vendor/lib/libactuator_dw9800_imx258_p7201guangbao.so \
     vendor/yu/garlic/proprietary/vendor/lib/libactuator_dw9800_imx258_p7201sunny.so:system/vendor/lib/libactuator_dw9800_imx258_p7201sunny.so \
     vendor/yu/garlic/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/yu/garlic/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
@@ -430,8 +429,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_imx258_guangbao_p7201.so:system/vendor/lib/libmmcamera_imx258_guangbao_p7201.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_imx258_sunny_p7201.so:system/vendor/lib/libmmcamera_imx258_sunny_p7201.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
@@ -468,7 +466,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_p7201_guangbao_imx258_gt24c16_eeprom.so:system/vendor/lib/libmmcamera_p7201_guangbao_imx258_gt24c16_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_p7201_sunny_imx258_otp_eeprom.so:system/vendor/lib/libmmcamera_p7201_sunny_imx258_otp_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so:system/vendor/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
@@ -477,7 +474,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_s5k4h8_p7201.so:system/vendor/lib/libmmcamera_s5k4h8_p7201.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_s5k4h8.so:system/vendor/lib/libmmcamera_s5k4h8.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_s5k4h8_p7201_eeprom.so:system/vendor/lib/libmmcamera_s5k4h8_p7201_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
