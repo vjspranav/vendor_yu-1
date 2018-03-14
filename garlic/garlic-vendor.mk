@@ -129,6 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/yu/garlic/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/yu/garlic/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
+    vendor/yu/garlic/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/yu/garlic/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/yu/garlic/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/yu/garlic/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
@@ -165,6 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/yu/garlic/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/yu/garlic/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/yu/garlic/proprietary/lib64/libadsprpc.so:system/lib64/libadsprpc.so \
     vendor/yu/garlic/proprietary/lib64/libdashplayer.so:system/lib64/libdashplayer.so \
     vendor/yu/garlic/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/yu/garlic/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
@@ -198,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/yu/garlic/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/yu/garlic/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
-    vendor/yu/garlic/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/yu/garlic/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/yu/garlic/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/yu/garlic/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
@@ -326,6 +327,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
     vendor/yu/garlic/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/yu/garlic/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libadsp_hvx_callback_skel.so:system/vendor/lib/libadsp_hvx_callback_skel.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libadsp_hvx_stub.so:system/vendor/lib/libadsp_hvx_stub.so \
     vendor/yu/garlic/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/yu/garlic/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
@@ -576,7 +579,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libqti-iopd-client.so:system/vendor/lib/libqti-iopd-client.so \
     vendor/yu/garlic/proprietary/vendor/lib/libqti-iopd.so:system/vendor/lib/libqti-iopd.so \
     vendor/yu/garlic/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libqtigef.so:system/vendor/lib/libqtigef.so \
     vendor/yu/garlic/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
     vendor/yu/garlic/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
     vendor/yu/garlic/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -644,11 +646,14 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/yu/garlic/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/yu/garlic/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
-    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so \
+    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
+    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
+    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so \
+    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_stats.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_stats.so \
+    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr_BGGR.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr_BGGR.so \
+    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr_RGGB.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr_RGGB.so \
     vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libexternal_dog_skel.so:system/vendor/lib/rfsa/adsp/libexternal_dog_skel.so \
     vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
@@ -656,6 +661,9 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
+    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libvpp_frc.so:system/vendor/lib/rfsa/adsp/libvpp_frc.so \
+    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:system/vendor/lib/rfsa/adsp/libvpp_svc_skel.so \
+    vendor/yu/garlic/proprietary/vendor/lib/rfsa/adsp/us-syncproximity.so:system/vendor/lib/rfsa/adsp/us-syncproximity.so \
     vendor/yu/garlic/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/yu/garlic/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/yu/garlic/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -780,6 +788,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libfeedbackhandler.so:system/vendor/lib64/libfeedbackhandler.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
@@ -832,7 +841,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libqti-iopd-client.so:system/vendor/lib64/libqti-iopd-client.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libqti-iopd.so:system/vendor/lib64/libqti-iopd.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libqtigef.so:system/vendor/lib64/libqtigef.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
@@ -936,7 +944,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.qualcomm.qti.bluetooth_audio@1.0 \
     vendor.qti.hardware.fm@1.0 \
-    libaudio_log_utils \
     libgpustats \
     libthermalclient \
     libtime_genoff \
