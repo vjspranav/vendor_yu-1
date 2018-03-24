@@ -231,6 +231,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/yu/garlic/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/yu/garlic/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
+    vendor/yu/garlic/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/yu/garlic/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/yu/garlic/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/yu/garlic/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
@@ -954,7 +955,6 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     CNEService \
-    QtiTetherService \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
