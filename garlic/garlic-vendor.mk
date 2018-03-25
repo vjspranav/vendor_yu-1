@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/yu/garlic/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/yu/garlic/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/yu/garlic/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
     vendor/yu/garlic/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/yu/garlic/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/yu/garlic/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
@@ -160,7 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib64/hw/fingerprint.elan.default.so:system/lib64/hw/fingerprint.elan.default.so \
     vendor/yu/garlic/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.default.so \
     vendor/yu/garlic/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
-    vendor/yu/garlic/proprietary/lib64/hw/lights.msm8937.so:system/lib64/hw/lights.msm8937.so \
     vendor/yu/garlic/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/yu/garlic/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/yu/garlic/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
@@ -610,7 +608,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/yu/garlic/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/yu/garlic/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libsdm-disp-vndapis.so:system/vendor/lib/libsdm-disp-vndapis.so \
     vendor/yu/garlic/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/yu/garlic/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/yu/garlic/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -878,7 +875,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libsdm-disp-vndapis.so:system/vendor/lib64/libsdm-disp-vndapis.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
@@ -962,4 +958,5 @@ PRODUCT_PACKAGES += \
     colorservice \
     QtiTelephonyServicelibrary \
     qcrilhook \
-    qti-telephony-common
+    qti-telephony-common \
+    libsdm-disp-vndapis
