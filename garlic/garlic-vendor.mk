@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/bin/gx_fpd:system/bin/gx_fpd \
+    vendor/yu/garlic/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/yu/garlic/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/yu/garlic/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/yu/garlic/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -25,12 +26,17 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/yu/garlic/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/yu/garlic/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
+    vendor/yu/garlic/proprietary/lib64/hw/camera.msm8937.so:system/lib64/hw/camera.msm8937.so \
     vendor/yu/garlic/proprietary/lib64/hw/fingerprint.elan.default.so:system/lib64/hw/fingerprint.elan.default.so \
     vendor/yu/garlic/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.default.so \
     vendor/yu/garlic/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/yu/garlic/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/yu/garlic/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/yu/garlic/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
+    vendor/yu/garlic/proprietary/lib64/libmm-qcamera.so:system/lib64/libmm-qcamera.so \
+    vendor/yu/garlic/proprietary/lib64/libmmcamera_interface.so:system/lib64/libmmcamera_interface.so \
+    vendor/yu/garlic/proprietary/lib64/libmmjpeg_interface.so:system/lib64/libmmjpeg_interface.so \
+    vendor/yu/garlic/proprietary/lib64/libqomx_core.so:system/lib64/libqomx_core.so \
     vendor/yu/garlic/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/yu/garlic/proprietary/vendor/lib/libactuator_dw9800_imx258_p7201sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9800_imx258_p7201sunny.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
